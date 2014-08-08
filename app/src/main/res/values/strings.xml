@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">SLTH v2</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Configuración</string>
+    <string name="sc_monitor_de">"Monitor de "</string>
+    <string name="sc_huertos">Huertos</string>
+    <string name="luz">LUZ</string>
+    <string name="humedad">HUMEDAD</string>
+    <string name="temperatura">TEMPERATURA (celsius)</string>
+    <string name="tv_luz">208,5 LUX</string>
+    <string name="tv_temp">32,2 °</string>
+    <string name="tv_humedad">61 %</string>
+    <string name="tv_iniciar">INICIAR</string>
+    <string name="tv_detener">DETENER</string>
+    <string name="tv_info">Conecte la tarjeta SLTH mediante el puerto USB de su dispositivo y realice mediciones para su análisis.</string>
+    <string name="link">Más información en www.austral38.cl</string>
+    <string name="tv_desconectado">Desconectado</string>
+
+    <string name="sample_temp">Temperatura</string>
+    <string name="sample_light">Luz</string>
+    <string name="sample_hum">Humedad</string>
+
+    <string name="pref_samples">Parámetros de Medición</string>
+    <string name="pref_samples_interval">Intervalo</string>
+    <string name="pref_samples_number">Número de Muestras</string>
+
+    <string name="pref_storage">Almacenamiento</string>
+    <string name="pref_storage_auto">Guardar Datos Automáticamente</string>
+    <string name="pref_storage_sync">Google Drive</string>
+    <string name="pref_samples_number_summary">Número de mediciones</string>
+    <string name="pref_samples_interval_summary">Intervalo de tiempo en segundos</string>
+    <string name="pref_storage_auto_summary">Guardar los datos de medición automáticamente en este dispositivo</string>
+    <string name="pref_storage_sync_summary">Guardar los datos en Google Drive</string>
+    <string name="pref_about">Acerca de...</string>
+    <string name="hint_save_dialog">Nombre Medición</string>
+    <string name="save_dialog">Guardar Medición</string>
+    <string name="dismiss">Descartar</string>
+    <string name="yes">Sí</string>
+    <string name="title_activity_file">Datos Almacenados</string>
+    <string name="file_selected">Archivos Seleccionados</string>
+    <string name="item_selected">1 Archivo seleccionado</string>
+    <string name="many_items_selected">Archivos seleccionados</string>
+    <string name="title_share_mail">Enviar por...</string>
+    <string name="txt_file">Directorio vacío</string>
+    <string name="delete">"Borrar"</string>
+    <string name="share">"Compartir"</string>
+
+</resources>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+ 
+    <translate
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:duration="500"
+        android:fromXDelta="0"
+        android:toXDelta="-100%p"
+        android:interpolator="@android:anim/linear_interpolator" /><!-- From: file:/Users/eDelgado/Proyectos%20TIDE/AndroidStudioProjects/SLTH%20V2/app/src/main/res/anim/entrada.xml -->

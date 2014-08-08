@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="2" >
+
+    <dataSet config="19.1.0" >
+        <source path="/Users/eDelgado/Proyectos TIDE/AndroidStudioProjects/SLTH V2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/assets" />
+    </dataSet>
+    <dataSet config="main" >
+        <source path="/Users/eDelgado/Proyectos TIDE/AndroidStudioProjects/SLTH V2/app/src/main/assets" >
+            <file
+                name="fonts/Mademoiselle.ttf"
+                path="/Users/eDelgado/Proyectos TIDE/AndroidStudioProjects/SLTH V2/app/src/main/assets/fonts/Mademoiselle.ttf" />
+        </source>
+    </dataSet>
+    <dataSet config="release" >
+        <source path="/Users/eDelgado/Proyectos TIDE/AndroidStudioProjects/SLTH V2/app/src/release/assets" />
+    </dataSet>
+
+</merger>

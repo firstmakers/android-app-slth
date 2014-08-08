@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory
+        android:title="@string/pref_samples"
+        android:icon="@drawable/ic_action_settings"
+        >
+        <!--Custom numberPicker -->
+         <cl.austral38.slthv2.utils.NumberPickerPreference
+             android:icon="@drawable/ic_action_settings"
+             android:defaultValue="60"
+             android:title="@string/pref_samples_number"
+             android:summary="@string/pref_samples_number_summary"
+             android:dialogMessage="@string/pref_samples_number_summary"
+             android:key="pref_sample_number"
+             app:min="1"
+             app:max="10000"
+
+             />
+        <cl.austral38.slthv2.utils.NumberPickerPreference
+            android:icon="@drawable/ic_action_time"
+            android:defaultValue="2"
+            android:title="@string/pref_samples_interval"
+            android:summary="@string/pref_samples_interval_summary"
+            android:dialogMessage="@string/pref_samples_interval_summary"
+            android:key="pref_sample_interval"
+            app:min="1"
+            app:max="3600"
+            />
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="@string/pref_storage"
+        >
+        <CheckBoxPreference
+            android:icon="@drawable/ic_action_sd_storage"
+            android:key="pref_storage"
+            android:title="@string/pref_storage_auto"
+            android:summary="@string/pref_storage_auto_summary"
+            android:defaultValue="true"
+            />
+        <CheckBoxPreference
+            android:icon="@drawable/ic_action_cloud"
+            android:key="pref_sync"
+            android:title="@string/pref_storage_sync"
+            android:summary="@string/pref_storage_sync_summary"
+            android:defaultValue="true"
+            />
+
+    </PreferenceCategory>
+
+
+</PreferenceScreen><!-- From: file:/Users/eDelgado/Proyectos%20TIDE/AndroidStudioProjects/SLTH%20V2/app/src/main/res/xml/setting.xml -->

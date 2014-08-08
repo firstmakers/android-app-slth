@@ -1,0 +1,36 @@
+<resources>
+
+
+    <style name="Theme.Slth" parent="@style/Theme.AppCompat.Light">
+        <item name="android:actionBarItemBackground">@drawable/selectable_background_slth</item>
+        <item name="android:popupMenuStyle">@style/PopupMenu.Slth</item>
+        <item name="android:dropDownListViewStyle">@style/DropDownListView.Slth</item>
+        <item name="android:actionBarTabStyle">@style/ActionBarTabStyle.Slth</item>
+        <item name="android:actionDropDownStyle">@style/DropDownNav.Slth</item>
+        <item name="android:actionBarStyle">@style/ActionBar.Solid.Slth</item>
+        <item name="android:actionModeBackground">@drawable/cab_background_top_slth</item>
+        <item name="android:actionModeSplitBackground">@drawable/cab_background_bottom_slth</item>
+        <item name="android:actionModeCloseButtonStyle">@style/ActionButton.CloseMode.Slth</item>
+
+
+    </style>
+
+    <style name="ActionBar.Solid.Slth" parent="@style/Widget.AppCompat.Light.ActionBar.Solid">
+        <item name="android:background">@drawable/ab_solid_slth</item>
+        <item name="android:backgroundStacked">@drawable/ab_stacked_solid_slth</item>
+        <item name="android:backgroundSplit">@drawable/ab_bottom_solid_slth</item>
+        <item name="android:progressBarStyle">@style/ProgressBar.Slth</item>
+    </style>
+
+    <style name="ActionBar.Transparent.Slth" parent="@style/Widget.AppCompat.Light.ActionBar">
+        <item name="android:background">@drawable/ab_transparent_slth</item>
+        <item name="android:progressBarStyle">@style/ProgressBar.Slth</item>
+    </style>
+
+    <!-- this style is only referenced in a Light.DarkActionBar based theme -->
+    <style name="Theme.Slth.Widget" parent="@style/Theme.AppCompat">
+        <item name="android:popupMenuStyle">@style/PopupMenu.Slth</item>
+        <item name="android:dropDownListViewStyle">@style/DropDownListView.Slth</item>
+    </style>
+
+</resources>

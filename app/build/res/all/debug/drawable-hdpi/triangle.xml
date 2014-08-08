@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item>
+        <rotate
+            android:fromDegrees="45"
+            android:toDegrees="45"
+            android:pivotX="180%"
+            android:pivotY="90%" >
+            <shape
+                android:shape="rectangle" >
+                <stroke android:color="#FF000000" android:width="10dp"/>
+                <gradient 
+        		android:angle="270"
+        		android:startColor="#ffdd0c" 
+        		android:endColor="#ffa41d" />
+            </shape>
+        </rotate>
+    </item>
+</layer-list><!-- From: file:/Users/eDelgado/Proyectos%20TIDE/AndroidStudioProjects/SLTH%20V2/app/src/main/res/drawable-hdpi/triangle.xml -->

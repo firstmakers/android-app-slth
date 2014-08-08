@@ -1,0 +1,87 @@
+<resources>
+    <style name="Theme.Slth" parent="@style/Theme.AppCompat.Light">
+        <item name="actionBarItemBackground">@drawable/selectable_background_slth</item>
+        <item name="popupMenuStyle">@style/PopupMenu.Slth</item>
+        <item name="dropDownListViewStyle">@style/DropDownListView.Slth</item>
+        <item name="actionBarTabStyle">@style/ActionBarTabStyle.Slth</item>
+        <item name="actionDropDownStyle">@style/DropDownNav.Slth</item>
+        <item name="actionBarStyle">@style/ActionBar.Solid.Slth</item>
+        <item name="actionModeBackground">@drawable/cab_background_top_slth</item>
+        <item name="actionModeSplitBackground">@drawable/cab_background_bottom_slth</item>
+        <item name="actionModeCloseButtonStyle">@style/ActionButton.CloseMode.Slth</item>
+
+
+    </style>
+
+    <style name="ActionBar.Solid.Slth" parent="@style/Widget.AppCompat.Light.ActionBar.Solid">
+        <item name="background">@drawable/ab_solid_slth</item>
+        <item name="backgroundStacked">@drawable/ab_stacked_solid_slth</item>
+        <item name="backgroundSplit">@drawable/ab_bottom_solid_slth</item>
+        <item name="progressBarStyle">@style/ProgressBar.Slth</item>
+    </style>
+
+    <style name="ActionBar.Transparent.Slth" parent="@style/Widget.AppCompat.Light.ActionBar">
+        <item name="background">@drawable/ab_transparent_slth</item>
+        <item name="progressBarStyle">@style/ProgressBar.Slth</item>
+    </style>
+
+    <style name="PopupMenu.Slth" parent="@style/Widget.AppCompat.Light.PopupMenu">
+        <item name="android:popupBackground">@drawable/menu_dropdown_panel_slth</item>
+    </style>
+
+    <style name="DropDownListView.Slth" parent="@style/Widget.AppCompat.Light.ListView.DropDown">
+        <item name="android:listSelector">@drawable/selectable_background_slth</item>
+    </style>
+
+    <style name="ActionBarTabStyle.Slth" parent="@style/Widget.AppCompat.Light.ActionBar.TabView">
+        <item name="android:background">@drawable/tab_indicator_ab_slth</item>
+    </style>
+
+    <style name="DropDownNav.Slth" parent="@style/Widget.AppCompat.Light.Spinner.DropDown.ActionBar">
+        <item name="android:background">@drawable/spinner_background_ab_slth</item>
+        <item name="android:popupBackground">@drawable/menu_dropdown_panel_slth</item>
+        <item name="android:dropDownSelector">@drawable/selectable_background_slth</item>
+    </style>
+
+    <style name="ProgressBar.Slth" parent="@style/Widget.AppCompat.ProgressBar.Horizontal">
+        <item name="android:progressDrawable">@drawable/progress_horizontal_slth</item>
+    </style>
+
+    <style name="ActionButton.CloseMode.Slth" parent="@style/Widget.AppCompat.Light.ActionButton.CloseMode">
+        <item name="android:background">@drawable/btn_cab_done_slth</item>
+    </style>
+
+    <!-- this style is only referenced in a Light.DarkActionBar based theme -->
+    <style name="Theme.Slth.Widget" parent="@style/Theme.AppCompat">
+        <item name="popupMenuStyle">@style/PopupMenu.Slth</item>
+        <item name="dropDownListViewStyle">@style/DropDownListView.Slth</item>
+    </style>
+
+
+
+    <color name="wet">#ff0f2d75</color>
+    <color name="moist">#ff2b830a</color>
+    <color name="dry">#ff950306</color>
+    <color name="white">#ffffff</color>
+    <color name="footer">#039ebc</color>
+    <color name="sc_title">#1391ba</color>
+    <color name="text_luz">#ffc001</color>
+    <color name="text_temp">#d03231</color>
+    <color name="text_hum">#4186c1</color>
+    <color name="background">#cacaca</color>
+    <color name="separator">#273176</color>
+    <color name="info">#193770</color>
+    <style name="btnStyleInit" parent="@android:style/Widget.Button">
+       <item name="android:textSize">15sp</item>
+       <item name="android:textStyle">bold</item>
+       <item name="android:textColor">#FFFFFF</item>
+       <item name="android:gravity">center</item>
+       <item name="android:shadowColor">#000000</item>
+       <item name="android:shadowDx">1</item>
+       <item name="android:shadowDy">1</item>
+       <item name="android:shadowRadius">0.6</item>
+       <item name="android:background">@drawable/button_iniciar</item>
+       <item name="android:padding">10dip</item>
+   </style>
+
+</resources>

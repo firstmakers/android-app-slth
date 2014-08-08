@@ -1,0 +1,12 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/action_delete"
+        android:title="@string/delete"
+        android:icon="@drawable/ic_action_discard"/>
+    <item
+        android:title="@string/share"
+        android:id="@+id/action_share"
+        android:icon="@drawable/ic_action_share"/>
+</menu>
+<!-- From: file:/Users/eDelgado/Proyectos%20TIDE/AndroidStudioProjects/SLTH%20V2/app/src/main/res/menu/files.xml -->
